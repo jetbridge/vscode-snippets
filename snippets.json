@@ -1,0 +1,77 @@
+{
+  "JetBridge TypeScript connected component": {
+    "prefix": "tscom",
+    "description": "JetBridge TypeScript redux-connected component",
+    "body": [
+      "import * as React from 'react'",
+      "import { connect } from 'react-redux'",
+      "import { IApplicationState } from './reducer'",
+      "",
+      "export interface I${1:Name}Props {",
+      "}",
+      "",
+      "class ${1:Name} extends React.Component<I${1:Name}Props, any> {",
+      "  public render() {",
+      "    return (",
+      "      <div>",
+      "    ",
+      "      </div>",
+      "    )",
+      "  }",
+      "}",
+      "",
+      "const mapStateToProps = (state: IApplicationState) => ({",
+      "    ",
+      "})",
+      "",
+      "export default connect(mapStateToProps)(${1:Name})"
+    ]
+  },
+
+  "JetBridge TypeScript styled component": {
+    "prefix": "scom",
+    "description": "JetBridge TypeScript styled component",
+    "body": [
+      "import * as React from 'react'",
+      "import { createStyles, withStyles, WithStyles } from '@material-ui/core/styles'",
+      "",
+      "const styles = () => createStyles({})",
+      "",
+      "interface I${1:Name}Props extends WithStyles<typeof styles> {}",
+      "interface I${1:Name}State {}",
+      "",
+      "export class ${1:Name} extends React.Component<I${1:Name}Props, I${1:Name}State> {",
+      "    public state: Partial<I${1:Name}State> = {}",
+      "",
+      "    public render() {",
+      "        const { classes } = this.props",
+      "        return (",
+      "            <React.Fragment>",
+      "            </React.Fragment>",
+      "        )",
+      "    }",
+      "}",
+      "",
+      "export default withStyles(styles)(${1:Name})"
+    ]
+  },
+
+  "JetBridge TypeScript functional styled component": {
+    "prefix": "fcom",
+    "description": "JetBridge TypeScript functional component",
+    "body": [
+      "import * as React from 'react'",
+      "import { makeStyles } from '@material-ui/styles'",
+      "",
+      "const useStyles = makeStyles({})",
+      "",
+      "interface I${1:Name}Props {}",
+      "",
+      "const ${1:Name} = (props: I${1:Name}Props) => {",
+      "  const classes = useStyles()",
+      "}",
+      "",
+      "export default ${1:Name}"
+    ]
+  }
+}

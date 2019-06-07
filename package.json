@@ -1,0 +1,22 @@
+{
+  "name": "jetbridge-ts-snippets",
+  "version": "1.0.0",
+  "description": "TypeScript React Snippets from JetBridge",
+  "categories": [
+    "Snippets"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "javascript",
+        "path": "./snippets.json"
+      }
+    ]
+  },
+  "author": "JetBridge Inc.",
+  "license": "WTFPL",
+  "engines": {
+    "vscode": "^1.28.0"
+  },
+  "publisher": "jetbridge"
+}
