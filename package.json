@@ -1,15 +1,23 @@
 {
   "name": "jetbridge-ts-snippets",
-  "version": "1.0.0",
+  "version": "1.0.5",
   "description": "TypeScript React Snippets from JetBridge",
   "categories": [
     "Snippets"
   ],
+  "scripts": {
+    "publish": "vsce publish"
+  },
+  "repository": "https://github.com/jetbridge/vscode-snippets",
   "contributes": {
     "snippets": [
       {
-        "language": "javascript",
-        "path": "./snippets.json"
+        "language": "typescriptreact",
+        "path": "./tsreact-snippets.json"
+      },
+      {
+        "language": "typescript",
+        "path": "./ts-snippets.json"
       }
     ]
   },

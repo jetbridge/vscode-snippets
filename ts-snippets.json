@@ -1,0 +1,6 @@
+{
+  "Import Lodash": {
+    "prefix": "imlo",
+    "body": ["import * as _ from 'lodash'"]
+  }
+}

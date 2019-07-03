@@ -1,4 +1,8 @@
 {
+  "Import Lodash": {
+    "prefix": "imlo",
+    "body": ["import * as _ from 'lodash'"]
+  },
   "JetBridge TypeScript connected component": {
     "prefix": "tscom",
     "description": "JetBridge TypeScript redux-connected component",
