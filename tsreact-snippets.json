@@ -61,8 +61,8 @@
   },
 
   "JetBridge TypeScript functional styled component": {
-    "prefix": "fcom",
-    "description": "JetBridge TypeScript functional component",
+    "prefix": "fscom",
+    "description": "JetBridge TypeScript functional component with Material-UI",
     "body": [
       "import * as React from 'react'",
       "import { makeStyles } from '@material-ui/styles'",
@@ -93,6 +93,22 @@
       "",
       "const ${1:Name} = (props: I${1:Name}Props) => {",
       "  const classes = useStyles()",
+      "}",
+      "",
+      "export default ${1:Name}"
+    ]
+  },
+
+  "JetBridge TypeScript functional component": {
+    "prefix": "fcom",
+    "description": "JetBridge TypeScript functional component",
+    "body": [
+      "import * as React from 'react'",
+      "",
+      "interface I${1:Name}Props {}",
+      "",
+      "const ${1:Name} = (props: I${1:Name}Props) => {",
+      "  ",
       "}",
       "",
       "export default ${1:Name}"
