@@ -81,7 +81,7 @@
 
   "JetBridge TypeScript functional theme styled component": {
     "prefix": "ftscom",
-    "description": "JetBridge TypeScript theme styled functional component",
+    "description": "JetBridge TypeScript themed styled functional component",
     "body": [
       "import * as React from 'react'",
       "import { makeStyles } from '@material-ui/styles'",
