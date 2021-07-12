@@ -2,5 +2,9 @@
   "Import Lodash": {
     "prefix": "imlo",
     "body": ["import * as _ from 'lodash'"]
+  },
+  "Import UUID v4": {
+    "prefix": "uu",
+    "body": ["import { v4 as uuid } from \"uuid\""]
   }
 }
